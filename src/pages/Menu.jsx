@@ -26,7 +26,7 @@ export default function Menu() {
       <section className="page-header-banner">
         <div className="container">
           <p className="page-header-pre">Hương Vị Thiên Nhiên</p>
-          <h1 className="page-header-title">Thực Đơn Nhà Bông</h1>
+          <h1 className="page-header-title">Thực Đơn Nhà GenX</h1>
         </div>
       </section>
 
@@ -94,7 +94,7 @@ export default function Menu() {
       <section className="menu-experience-cta section-padding">
         <div className="container cta-box-content">
           <ScrollReveal animation="scale">
-            <h2>Bông Biêng trân quý từng trải nghiệm của khách hàng</h2>
+            <h2>GenX PKS trân quý từng trải nghiệm của khách hàng</h2>
             <p>Dù thưởng trà tại quán hay tại gia, mỗi ly trà sữa đều được đong đầy bằng sự chu đáo và tỉ mỉ trong từng khâu pha chế. Hãy chọn cho mình ly trà yêu thích và tận hưởng ngay lúc này nhé.</p>
             <Link to="/products" className="btn btn-gold">
               Đến trang Đặt trà ngay <ArrowRight size={16} />

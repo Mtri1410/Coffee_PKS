@@ -19,10 +19,10 @@ export default function News() {
       tag: 'promo',
       tagName: 'Khuyến mãi',
       date: '15 Tháng 6, 2026',
-      author: 'Admin Bông Biêng',
-      title: 'Bông Biêng Khai Trương Cửa Hàng Thứ 6 Tại Lê Văn Lương',
-      desc: 'Chào đón thành viên mới tại Tòa 18T1 Lê Văn Lương với chương trình Mua 1 Tặng 1 toàn bộ menu trong tuần lễ vàng khai trương từ ngày 15/06 đến ngày 22/06/2026.',
-      content: 'Bông Biêng vô cùng phấn khởi thông báo sự ra mắt của cửa hàng thứ 6 tại Hà Nội, tọa lạc tại tầng 1 Tòa nhà 18T1 Lê Văn Lương, Thanh Xuân. Để tri ân sự tin yêu của quý khách, chúng tôi tổ chức chương trình QUÀ TẶNG KHAI TRƯƠNG lớn nhất năm: \n\n1. Mua 1 ly trà tặng 1 ly nước bất kỳ trong menu.\n2. Tặng Voucher 20% cho hóa đơn tiếp theo khi đăng ký Zalo OA thành viên mới.\n\nKhông gian rộng rãi với hơn 100 chỗ ngồi ngập tràn cây xanh đang sẵn sàng phục vụ các bạn học tập, làm việc và tụ tập bạn bè. Ghé Bông Biêng Lê Văn Lương ngay hôm nay nhé!'
+      author: 'Admin GenX PKS',
+      title: 'GenX PKS Khai Trương Cửa Hàng Thứ 6 Tại Bàu Cát',
+      desc: 'Chào đón thành viên mới tại 68 Bàu Cát, Tân Bình với chương trình Mua 1 Tặng 1 toàn bộ menu trong tuần lễ vàng khai trương từ ngày 15/06 đến ngày 22/06/2026.',
+      content: 'GenX PKS vô cùng phấn khởi thông báo sự ra mắt của cửa hàng thứ 6 tại TP. HCM, tọa lạc tại số 68 Bàu Cát, Phường 14, Quận Tân Bình. Để tri ân sự tin yêu của quý khách, chúng tôi tổ chức chương trình QUÀ TẶNG KHAI TRƯƠNG lớn nhất năm: \n\n1. Mua 1 ly trà tặng 1 ly nước bất kỳ trong menu.\n2. Tặng Voucher 20% cho hóa đơn tiếp theo khi đăng ký Zalo OA thành viên mới.\n\nKhông gian rộng rãi với hơn 100 chỗ ngồi ngập tràn cây xanh đang sẵn sàng phục vụ các bạn học tập, làm việc và tụ tập bạn bè. Ghé GenX PKS Bàu Cát ngay hôm nay nhé!'
     },
     {
       id: 2,
@@ -31,8 +31,8 @@ export default function News() {
       date: '01 Tháng 6, 2026',
       author: 'R&D Team',
       title: 'Ra Mắt Dòng Sản Phẩm Mới: Trà Sữa Kem Dẻ Cười Độc Đáo',
-      desc: 'Sự sáng tạo đột phá từ bộ phận nghiên cứu của Bông Biêng: Kết hợp trà sữa nhài tươi truyền thống cùng lớp kem dẻ cười (Pistachio cream) béo bùi và hạt dẻ cười xay nhuyễn.',
-      content: 'Bộ đôi siêu phẩm mới vừa gia nhập menu nhà Bông bao gồm: "Thanh Nhài Kem Dẻ Cười" và "Nhài Dừa Kem Dẻ Cười". \n\nLấy cảm hứng từ hạt dẻ cười Pistachio - nữ hoàng của các loại hạt dinh dưỡng, chúng tôi đã tạo nên lớp kem dẻ cười độc bản có màu xanh ngọc bích tự nhiên, hương thơm ngậy béo đặc trưng cùng vị bùi dịu thanh nhẹ. Khi thưởng thức, bạn sẽ cảm nhận lớp kem béo mượt, hạt dẻ cười giòn giòn nhai vui miệng trên nền cốt trà sữa nhài tươi nguyên lá thơm lừng. \n\nSản phẩm hiện đã có mặt trên toàn hệ thống cửa hàng và các ứng dụng đặt hàng online.'
+      desc: 'Sự sáng tạo đột phá từ bộ phận nghiên cứu của GenX PKS: Kết hợp trà sữa nhài tươi truyền thống cùng lớp kem dẻ cười (Pistachio cream) béo bùi và hạt dẻ cười xay nhuyễn.',
+      content: 'Bộ đôi siêu phẩm mới vừa gia nhập menu nhà GenX bao gồm: "Thanh Nhài Kem Dẻ Cười" và "Nhài Dừa Kem Dẻ Cười". \n\nLấy cảm hứng từ hạt dẻ cười Pistachio - nữ hoàng của các loại hạt dinh dưỡng, chúng tôi đã tạo nên lớp kem dẻ cười độc bản có màu xanh ngọc bích tự nhiên, hương thơm ngậy béo đặc trưng cùng vị bùi dịu thanh nhẹ. Khi thưởng thức, bạn sẽ cảm nhận lớp kem béo mượt, hạt dẻ cười giòn giòn nhai vui miệng trên nền cốt trà sữa nhài tươi nguyên lá thơm lừng. \n\nSản phẩm hiện đã có mặt trên toàn hệ thống cửa hàng và các ứng dụng đặt hàng online.'
     },
     {
       id: 3,
@@ -41,18 +41,18 @@ export default function News() {
       date: '01 Tháng 6, 2026',
       author: 'Marketing Team',
       title: 'Mừng Tết Thiếu Nhi 1/6 - Free Topping Trân Châu Trắng',
-      desc: 'Tặng ngay 1 phần topping trân châu trắng dẻo giòn cho tất cả khách hàng nhí và gia đình khi ghé mua trực tiếp tại các cửa hàng Bông Biêng trong ngày 1/6.',
-      content: 'Nhân ngày Quốc tế Thiếu nhi, Bông Biêng gửi lời chúc tốt đẹp nhất tới toàn bộ các em nhỏ. \n\nTrong ngày 01/06/2026, mỗi đơn hàng mua trực tiếp tại quầy có trẻ em đi cùng sẽ được TẶNG MIỄN PHÍ 1 phần topping trân châu trắng ngọc trai dẻo giòn thơm ngọt. Chương trình áp dụng đồng thời với tích điểm thành viên Zalo OA. Hãy để Bông Biêng đồng hành cùng gia đình bạn trong ngày hội của bé!'
+      desc: 'Tặng ngay 1 phần topping trân châu trắng dẻo giòn cho tất cả khách hàng nhí và gia đình khi ghé mua trực tiếp tại các cửa hàng GenX PKS trong ngày 1/6.',
+      content: 'Nhân ngày Quốc tế Thiếu nhi, GenX PKS gửi lời chúc tốt đẹp nhất tới toàn bộ các em nhỏ. \n\nTrong ngày 01/06/2026, mỗi đơn hàng mua trực tiếp tại quầy có trẻ em đi cùng sẽ được TẶNG MIỄN PHÍ 1 phần topping trân châu trắng ngọc trai dẻo giòn thơm ngọt. Chương trình áp dụng đồng thời với tích điểm thành viên Zalo OA. Hãy để GenX PKS đồng hành cùng gia đình bạn trong ngày hội của bé!'
     },
     {
       id: 4,
       tag: 'story',
       tagName: 'Thương hiệu',
       date: '25 Tháng 5, 2026',
-      author: 'Founder Bông Biêng',
-      title: 'Câu Chuyện Phía Sau Tên Gọi "Bông Biêng" đầy mơ mộng',
-      desc: 'Bông Biêng không đơn thuần là một cái tên vui tai, đó là triết lý sống và ước mơ mang sự tĩnh lặng hoa cỏ Á Đông vào từng ly trà sữa gửi tới khách hàng.',
-      content: '"Bông" đại diện cho những đóa hoa tươi tinh khiết khơi nguồn cảm hứng (Nhài, Quế Hoa, Phong Lan...). "Biêng" gợi cảm giác bồng bềnh, thư thái như mây trời lững lờ trôi giữa khoảng không yên ả. \n\nChúng tôi đặt tên thương hiệu là Bông Biêng với mong muốn mỗi ly trà không chỉ giải khát, mà còn là người bạn đồng hành kéo bạn ra khỏi những xô bồ, ồn ã của đời sống thường nhật để tận hưởng một khoảng lặng dịu êm. Cảm ơn bạn đã luôn đồng hành cùng câu chuyện của Bông Biêng!'
+      author: 'Founder GenX PKS',
+      title: 'Câu Chuyện Phía Sau Tên Gọi "GenX PKS" đầy mơ mộng',
+      desc: 'GenX PKS không đơn thuần là một cái tên vui tai, đó là triết lý sống và ước mơ mang sự tĩnh lặng hoa cỏ Á Đông vào từng ly trà sữa gửi tới khách hàng.',
+      content: '"GenX" đại diện cho sự năng động, hiện đại và kết nối thế hệ. "PKS" là viết tắt của sự chuẩn mực, chất lượng và dịch vụ tận tâm. \n\nChúng tôi đặt tên thương hiệu là GenX PKS với mong muốn mỗi ly trà không chỉ giải khát, mà còn là người bạn đồng hành kéo bạn ra khỏi những xô bồ, ồn ã của đời sống thường nhật để tận hưởng một khoảng lặng dịu êm. Cảm ơn bạn đã luôn đồng hành cùng câu chuyện của GenX PKS!'
     },
     {
       id: 5,
@@ -61,8 +61,8 @@ export default function News() {
       date: '10 Tháng 5, 2026',
       author: 'QC Team',
       title: 'Cam Kết Nguyên Liệu Trà Sạch Chuẩn Organic Cao Nguyên',
-      desc: 'Tìm hiểu quy trình canh tác trà nguyên lá không hóa chất tại Bảo Lộc - Lâm Đồng, nguồn cung cấp cốt trà sữa chất lượng cao cho toàn hệ thống Bông Biêng.',
-      content: 'Để giữ trọn vị chát nhẹ và hậu vị ngọt sâu nguyên bản của lá trà, Bông Biêng ký kết hợp tác độc quyền với các nông hộ đạt chuẩn VietGAP tại Bảo Lộc. \n\nQuy trình thu hoạch diễn ra nghiêm ngặt: chỉ thu hái búp trà 1 tôm 2 lá vào sáng sớm khi sương còn chưa tan, trải qua các công đoạn héo, vò, lên men tự nhiên dưới sự giám sát của các chuyên gia trà lâu năm. Không chất bảo quản, không chất tạo hương liệu nhân tạo - đó là lời hứa sắt đá về chất lượng sản phẩm sạch Bông Biêng gửi tới sức khỏe người tiêu dùng.'
+      desc: 'Tìm hiểu quy trình canh tác trà nguyên lá không hóa chất tại Bảo Lộc - Lâm Đồng, nguồn cung cấp cốt trà sữa chất lượng cao cho toàn hệ thống GenX PKS.',
+      content: 'Để giữ trọn vị chát nhẹ và hậu vị ngọt sâu nguyên bản của lá trà, GenX PKS ký kết hợp tác độc quyền với các nông hộ đạt chuẩn VietGAP tại Bảo Lộc. \n\nQuy trình thu hoạch diễn ra nghiêm ngặt: chỉ thu hái búp trà 1 tôm 2 lá vào sáng sớm khi sương còn chưa tan, trải qua các công đoạn héo, vò, lên men tự nhiên dưới sự giám sát của các chuyên gia trà lâu năm. Không chất bảo quản, không chất tạo hương liệu nhân tạo - đó là lời hứa sắt đá về chất lượng sản phẩm sạch GenX PKS gửi tới sức khỏe người tiêu dùng.'
     }
   ];
 
@@ -91,7 +91,7 @@ export default function News() {
       <section className="page-header-banner">
         <div className="container">
           <p className="page-header-pre">Cập Nhật Tin Tức</p>
-          <h1 className="page-header-title">Bản Tin Bông Biêng</h1>
+          <h1 className="page-header-title">Bản Tin GenX PKS</h1>
         </div>
       </section>
 

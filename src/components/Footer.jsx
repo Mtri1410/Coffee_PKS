@@ -4,12 +4,12 @@ import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 export default function Footer() {
   const branches = [
-    { address: "B4 Phạm Ngọc Thạch, Đống Đa, Hà Nội", phone: "0968.123.456" },
-    { address: "115 Đội Cấn, Ba Đình, Hà Nội", phone: "0968.123.457" },
-    { address: "14 Duy Tân, Cầu Giấy, Hà Nội", phone: "0968.123.458" },
-    { address: "96 Phố Huế, Hai Bà Trưng, Hà Nội", phone: "0968.123.459" },
-    { address: "149 Nguyễn Văn Lộc, Hà Đông, Hà Nội", phone: "0968.123.460" },
-    { address: "Tòa 18T1 Lê Văn Lương, Thanh Xuân, Hà Nội", phone: "0968.123.461" }
+    { address: "133/3 Đỗ Xuân Hợp, Phước Long B, Thủ Đức, TP. HCM", phone: "0968.123.456" },
+    { address: "85 Nguyễn Huệ, Phường Bến Nghé, Quận 1, TP. HCM", phone: "0968.123.457" },
+    { address: "42 Trần Cao Vân, Võ Thị Sáu, Quận 3, TP. HCM", phone: "0968.123.458" },
+    { address: "120 Nguyễn Gia Trí, Phường 25, Bình Thạnh, TP. HCM", phone: "0968.123.459" },
+    { address: "45 Nguyễn Văn Linh, Tân Phong, Quận 7, TP. HCM", phone: "0968.123.460" },
+    { address: "68 Bàu Cát, Phường 14, Tân Bình, TP. HCM", phone: "0968.123.461" }
   ];
 
   return (
@@ -18,16 +18,16 @@ export default function Footer() {
         <div className="container footer-grid">
           {/* Brand Col */}
           <div className="footer-col brand-col">
-            <h3 className="footer-brand">Bông Biêng</h3>
+            <h3 className="footer-brand">GenX PKS</h3>
             <p className="footer-slogan">Dệt hương thanh, dịu vị trà</p>
             <p className="brand-desc">
-              Chúng tôi sáng tạo nên một câu chuyện mới mẻ về sự mê hoặc của từng lớp hương hoa. Nơi mỗi ly trà sữa Bông Biêng là một tác phẩm được thêu dệt tinh tế từ những hương vị quyến rũ.
+              Chúng tôi sáng tạo nên một câu chuyện mới mẻ về sự mê hoặc của từng lớp hương hoa. Nơi mỗi ly trà sữa GenX PKS là một tác phẩm được thêu dệt tinh tế từ những hương vị quyến rũ.
             </p>
             <div className="social-links">
-              <a href="https://facebook.com/trasuabongbieng" target="_blank" rel="noreferrer" aria-label="Facebook Bông Biêng">
+              <a href="https://facebook.com/genxpks" target="_blank" rel="noreferrer" aria-label="Facebook GenX PKS">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noreferrer" aria-label="Youtube Bông Biêng">
+              <a href="https://youtube.com" target="_blank" rel="noreferrer" aria-label="Youtube GenX PKS">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
               </a>
             </div>
@@ -38,7 +38,7 @@ export default function Footer() {
             <h4 className="footer-col-title">Liên Kết</h4>
             <ul className="footer-links-list">
               <li><Link to="/">Trang chủ</Link></li>
-              <li><Link to="/story">Chuyện Bông Biêng</Link></li>
+              <li><Link to="/story">Chuyện GenX PKS</Link></li>
               <li><Link to="/menu">Thực đơn</Link></li>
               <li><Link to="/products">Sản phẩm</Link></li>
               <li><Link to="/membership">Chính sách thành viên</Link></li>
@@ -74,7 +74,7 @@ export default function Footer() {
               </div>
               <div className="contact-info-item">
                 <Mail size={16} />
-                <p>lienhe@bongbieng.com</p>
+                <p>lienhe@genxpks.com</p>
               </div>
               <div className="contact-info-item">
                 <Clock size={16} />
@@ -82,19 +82,27 @@ export default function Footer() {
               </div>
             </div>
             <div className="footer-tagline-box">
-              <p>Mỗi ly trà sữa Bông Biêng là một tác phẩm được thêu dệt tinh tế.</p>
+              <p>Mỗi ly trà sữa GenX PKS là một tác phẩm được thêu dệt tinh tế.</p>
             </div>
           </div>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <div className="container footer-bottom-flex">
-          <p className="copyright">© 2026 Bông Biêng. Thiết kế và phát triển bởi Antigravity. Bản quyền thuộc về thương hiệu Bông Biêng.</p>
-          <div className="footer-bottom-links">
-            <a href="#privacy">Chính sách bảo mật</a>
-            <span>•</span>
-            <a href="#terms">Điều khoản sử dụng</a>
+        <div className="container footer-bottom-container">
+          <div className="company-info-block">
+            <p className="company-name">CÔNG TY TNHH GENX PK STORY</p>
+            <p>Mã số doanh nghiệp: 0319221437 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 12/04/2024</p>
+            <p>Địa chỉ ĐKKD: 133/3 Đỗ Xuân Hợp, Khu phố 9, Phường Phước Long, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam</p>
+            <p>Người đại diện pháp luật: Lê Trọng Phúc - Hotline: 1900 8888 - CSKH: lienhe@genxpks.com</p>
+          </div>
+          <div className="footer-bottom-flex">
+            <p className="copyright">© 2026 GenX PKS. Thiết kế và phát triển bởi Antigravity. Bản quyền thuộc về thương hiệu GenX PKS.</p>
+            <div className="footer-bottom-links">
+              <a href="#privacy">Chính sách bảo mật</a>
+              <span>•</span>
+              <a href="#terms">Điều khoản sử dụng</a>
+            </div>
           </div>
         </div>
       </div>
@@ -290,10 +298,28 @@ export default function Footer() {
         }
 
         .footer-bottom {
-          padding: 24px 0;
+          padding: 32px 0;
           background-color: #201F1E;
           font-size: 0.8rem;
           color: rgba(250, 247, 240, 0.4);
+          line-height: 1.6;
+        }
+
+        .footer-bottom-container {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+
+        .company-info-block {
+          border-bottom: 1px solid rgba(250, 247, 240, 0.05);
+          padding-bottom: 20px;
+        }
+
+        .company-name {
+          font-weight: 600;
+          color: rgba(250, 247, 240, 0.7);
+          margin-bottom: 4px;
         }
 
         .footer-bottom-flex {
@@ -318,6 +344,9 @@ export default function Footer() {
         }
 
         @media (max-width: 768px) {
+          .footer-bottom-container {
+            text-align: center;
+          }
           .footer-bottom-flex {
             flex-direction: column;
             text-align: center;

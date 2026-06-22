@@ -19,7 +19,7 @@ export default function App() {
   // Load cart from LocalStorage on mount
   useEffect(() => {
     try {
-      const savedCart = localStorage.getItem('bongbieng_cart');
+      const savedCart = localStorage.getItem('genxpks_cart');
       if (savedCart) {
         setCartItems(JSON.parse(savedCart));
       }
@@ -31,7 +31,7 @@ export default function App() {
   // Save cart to LocalStorage when it changes
   useEffect(() => {
     try {
-      localStorage.setItem('bongbieng_cart', JSON.stringify(cartItems));
+      localStorage.setItem('genxpks_cart', JSON.stringify(cartItems));
     } catch (e) {
       console.error('Failed to save cart to local storage', e);
     }

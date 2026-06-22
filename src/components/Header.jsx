@@ -27,7 +27,7 @@ export default function Header({ cartCount, onCartOpen }) {
 
   const navLinks = [
     { name: 'Trang chủ', path: '/' },
-    { name: 'Chuyện Bông Biêng', path: '/story' },
+    { name: 'Chuyện GenX PKS', path: '/story' },
     { name: 'Thực đơn', path: '/menu' },
     { name: 'Sản phẩm', path: '/products' },
     { name: 'Thành viên', path: '/membership' },
@@ -42,7 +42,7 @@ export default function Header({ cartCount, onCartOpen }) {
           {/* Logo Section */}
           <Link to="/" className="logo-area">
             <Flower className="logo-icon" size={26} />
-            <span className="logo-text">Bông Biêng</span>
+            <span className="logo-text">GenX PKS</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -89,7 +89,7 @@ export default function Header({ cartCount, onCartOpen }) {
           <div className="mobile-nav-header">
             <Link to="/" className="logo-area" onClick={() => setIsMobileMenuOpen(false)}>
               <Flower className="logo-icon" size={24} />
-              <span className="logo-text">Bông Biêng</span>
+              <span className="logo-text">GenX PKS</span>
             </Link>
             <button onClick={() => setIsMobileMenuOpen(false)} className="close-drawer-btn">
               <X size={24} />

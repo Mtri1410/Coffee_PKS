@@ -12,12 +12,12 @@ export default function Contact() {
   const [selectedBranchIdx, setSelectedBranchIdx] = useState(0);
 
   const branches = [
-    { name: "Chi Nhánh Phạm Ngọc Thạch", address: "B4 Phạm Ngọc Thạch, Đống Đa, Hà Nội", phone: "0968.123.456", coords: { x: 45, y: 55 } },
-    { name: "Chi Nhánh Đội Cấn", address: "115 Đội Cấn, Ba Đình, Hà Nội", phone: "0968.123.457", coords: { x: 38, y: 35 } },
-    { name: "Chi Nhánh Duy Tân", address: "14 Duy Tân, Cầu Giấy, Hà Nội", phone: "0968.123.458", coords: { x: 15, y: 40 } },
-    { name: "Chi Nhánh Phố Huế", address: "96 Phố Huế, Hai Bà Trưng, Hà Nội", phone: "0968.123.459", coords: { x: 65, y: 48 } },
-    { name: "Chi Nhánh Nguyễn Văn Lộc", address: "149 Nguyễn Văn Lộc, Hà Đông, Hà Nội", phone: "0968.123.460", coords: { x: 20, y: 80 } },
-    { name: "Chi Nhánh Lê Văn Lương", address: "Tòa 18T1 Lê Văn Lương, Thanh Xuân, Hà Nội", phone: "0968.123.461", coords: { x: 35, y: 62 } }
+    { name: "Trụ Sở Đỗ Xuân Hợp", address: "133/3 Đỗ Xuân Hợp, Phước Long B, Thủ Đức, TP. HCM", phone: "0968.123.456", coords: { x: 75, y: 35 } },
+    { name: "Chi Nhánh Nguyễn Huệ", address: "85 Nguyễn Huệ, Phường Bến Nghé, Quận 1, TP. HCM", phone: "0968.123.457", coords: { x: 45, y: 55 } },
+    { name: "Chi Nhánh Hồ Con Rùa", address: "42 Trần Cao Vân, Phường Võ Thị Sáu, Quận 3, TP. HCM", phone: "0968.123.458", coords: { x: 40, y: 48 } },
+    { name: "Chi Nhánh Nguyễn Gia Trí", address: "120 Nguyễn Gia Trí, Phường 25, Bình Thạnh, TP. HCM", phone: "0968.123.459", coords: { x: 58, y: 42 } },
+    { name: "Chi Nhánh Phú Mỹ Hưng", address: "45 Nguyễn Văn Linh, Tân Phong, Quận 7, TP. HCM", phone: "0968.123.460", coords: { x: 50, y: 80 } },
+    { name: "Chi Nhánh Bàu Cát", address: "68 Bàu Cát, Phường 14, Tân Bình, TP. HCM", phone: "0968.123.461", coords: { x: 22, y: 50 } }
   ];
 
   const handleSubmit = (e) => {
@@ -37,7 +37,7 @@ export default function Contact() {
       {/* Page Header */}
       <section className="page-header-banner">
         <div className="container">
-          <p className="page-header-pre">Gặp Gỡ Bông Biêng</p>
+          <p className="page-header-pre">Gặp Gỡ GenX PKS</p>
           <h1 className="page-header-title">Hệ Thống Cửa Hàng</h1>
         </div>
       </section>
@@ -85,10 +85,10 @@ export default function Contact() {
           <div className="branches-map-col">
             <div className="styled-map-container panel-glass">
               <div className="map-header">
-                <span className="map-title-label">Bản đồ chi nhánh Bông Biêng Hà Nội</span>
+                <span className="map-title-label">Bản đồ chi nhánh GenX PKS TP. Hồ Chí Minh</span>
               </div>
               <div className="map-canvas-visual">
-                {/* SVG Visualizing Hanoi Districts and Branch Pins */}
+                {/* SVG Visualizing HCMC Districts and Branch Pins */}
                 <svg className="hanoi-map-svg" viewBox="0 0 100 100" width="100%" height="100%">
                   {/* Styled Background Grid/Paths representing districts */}
                   <path d="M10,20 Q30,10 50,20 T90,20" fill="none" stroke="#E6D3C3" strokeWidth="1.5" />
@@ -150,7 +150,7 @@ export default function Contact() {
               <MessageSquare size={28} color="#C29F68" />
               <h3>Liên hệ nhanh</h3>
               <p>Nếu bạn có bất kỳ thắc mắc nào về hóa đơn, sự kiện, phản ánh dịch vụ hoặc mong muốn đồng hành hợp tác đại lý, hãy điền thông tin vào mẫu bên cạnh.</p>
-              <p>Đội ngũ Chăm sóc khách hàng Bông Biêng sẽ phản hồi email của bạn trong vòng 24 giờ làm việc.</p>
+              <p>Đội ngũ Chăm sóc khách hàng GenX PKS sẽ phản hồi email của bạn trong vòng 24 giờ làm việc.</p>
             </div>
             
             <div className="hotline-card-info panel-glass">
@@ -165,7 +165,7 @@ export default function Contact() {
               <div className="form-success-state">
                 <div className="success-icon-circle">✓</div>
                 <h3>Thông Tin Đã Được Tiếp Nhận!</h3>
-                <p>Cảm ơn bạn đã liên hệ với Bông Biêng. Chúng tôi sẽ phản hồi lại bạn qua địa chỉ email cung cấp sớm nhất.</p>
+                <p>Cảm ơn bạn đã liên hệ với GenX PKS. Chúng tôi sẽ phản hồi lại bạn qua địa chỉ email cung cấp sớm nhất.</p>
                 <button onClick={() => setIsSent(false)} className="btn btn-primary">
                   Gửi thêm liên hệ
                 </button>

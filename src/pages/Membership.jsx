@@ -28,7 +28,7 @@ export default function Membership() {
         'Giảm giá trực tiếp 10% cho mọi đơn hàng tại quầy và online.',
         'Tặng 1 ly trà sữa signature miễn phí trong ngày sinh nhật kèm bánh ngọt.',
         'Ưu tiên đặt chỗ và trải nghiệm thử các dòng trà mới ra mắt miễn phí.',
-        'Nhận quà tặng lưu niệm cao cấp Bông Biêng (Ly giữ nhiệt sứ) dịp cuối năm.'
+        'Nhận quà tặng lưu niệm cao cấp GenX PKS (Ly giữ nhiệt sứ) dịp cuối năm.'
       ];
     } else if (points >= 50) { // Thân Thiết
       tier = 'Thành viên Thân Thiết (Hạng Nhài Bạc)';
@@ -88,7 +88,7 @@ export default function Membership() {
         <div className="container intro-grid">
           <div className="intro-text-col">
             <h2>Đăng ký thành viên - Nhận ngàn ưu đãi</h2>
-            <p>Tại Bông Biêng, chúng tôi trân trọng mỗi sự ủng hộ từ bạn. Chương trình thành viên Bông Biêng Zalo OA được thiết kế để mang lại nhiều đặc quyền và món quà thiết thực nhất cho bạn trên mỗi hành trình thưởng trà.</p>
+            <p>Tại GenX PKS, chúng tôi trân trọng mỗi sự ủng hộ từ bạn. Chương trình thành viên GenX PKS Zalo OA được thiết kế để mang lại nhiều đặc quyền và món quà thiết thực nhất cho bạn trên mỗi hành trình thưởng trà.</p>
             <div className="points-rule-box">
               <TrendingUp size={24} color="#C29F68" />
               <div>
@@ -153,7 +153,7 @@ export default function Membership() {
         <div className="container calculator-grid-box">
           <div className="calculator-form-side">
             <h2>Ước Tính Hạng Thành Viên</h2>
-            <p>Nhập số tiền bạn dự kiến chi tiêu tại Bông Biêng để tính toán số điểm tích lũy và kiểm tra cấp bậc cùng các đặc quyền tương ứng bạn sẽ nhận được.</p>
+            <p>Nhập số tiền bạn dự kiến chi tiêu tại GenX PKS để tính toán số điểm tích lũy và kiểm tra cấp bậc cùng các đặc quyền tương ứng bạn sẽ nhận được.</p>
             
             <form onSubmit={handleCalculate} className="calc-form">
               <div className="form-group">

@@ -115,7 +115,7 @@ export default function Products({ onAddToCart }) {
       <section className="page-header-banner">
         <div className="container">
           <p className="page-header-pre">Mua Sắm Trực Tuyến</p>
-          <h1 className="page-header-title">Cửa Hàng Nhà Bông</h1>
+          <h1 className="page-header-title">Cửa Hàng Nhà GenX</h1>
         </div>
       </section>
 

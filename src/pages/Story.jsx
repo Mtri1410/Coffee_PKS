@@ -34,17 +34,17 @@ export default function Story() {
     {
       year: "2024",
       title: "Khởi Đầu Ý Tưởng",
-      desc: "Bông Biêng được thành lập bởi một đội ngũ đam mê trà sữa tại Hà Nội. Với ý tưởng kết hợp hương hoa phương Đông tinh tế vào trà sữa tươi, dự án đã trải qua 18 tháng nghiên cứu phát triển cốt trà và tỷ lệ sữa để đảm bảo hương hoa tự nhiên nhất."
+      desc: "GenX PKS được thành lập bởi một đội ngũ đam mê trà sữa tại TP. Hồ Chí Minh. Với ý tưởng kết hợp hương hoa phương Đông tinh tế vào trà sữa tươi, dự án đã trải qua 18 tháng nghiên cứu phát triển cốt trà và tỷ lệ sữa để đảm bảo hương hoa tự nhiên nhất."
     },
     {
       year: "2025",
       title: "Chi Nhánh Đầu Tiên",
-      desc: "Cửa hàng đầu tiên tại B4 Phạm Ngọc Thạch chính thức đi vào hoạt động. Với phong cách thiết kế tối giản, yên tĩnh cùng sản phẩm chất lượng cao, Bông Biêng nhanh chóng thu hút được lượng lớn khách hàng trẻ yêu mến."
+      desc: "Cửa hàng đầu tiên tại Đỗ Xuân Hợp, Thủ Đức chính thức đi vào hoạt động. Với phong cách thiết kế tối giản, yên tĩnh cùng sản phẩm chất lượng cao, GenX PKS nhanh chóng thu hút được lượng lớn khách hàng trẻ yêu mến."
     },
     {
       year: "2026",
       title: "Hành Trình Mở Rộng",
-      desc: "Chỉ sau 2 năm, Bông Biêng đã nhân rộng quy mô lên 6 chi nhánh tại các khu vực sầm uất nhất Hà Nội như Đội Cấn, Duy Tân, Phố Huế, Lê Văn Lương... Thương hiệu khẳng định vị thế dẫn đầu trong dòng trà sữa hương hoa tươi nguyên lá."
+      desc: "Chỉ sau 2 năm, GenX PKS đã nhân rộng quy mô lên 6 chi nhánh tại các khu vực sầm uất nhất TP. HCM như Nguyễn Huệ, Võ Thị Sáu, Nguyễn Gia Trí, Phú Mỹ Hưng... Thương hiệu khẳng định vị thế dẫn đầu trong dòng trà sữa hương hoa tươi nguyên lá."
     }
   ];
 
@@ -54,7 +54,7 @@ export default function Story() {
       <section className="page-header-banner">
         <div className="container">
           <p className="page-header-pre">Về Chúng Tôi</p>
-          <h1 className="page-header-title">Chuyện Bông Biêng</h1>
+          <h1 className="page-header-title">Chuyện GenX PKS</h1>
         </div>
       </section>
 
@@ -68,10 +68,10 @@ export default function Story() {
                 "Chúng tôi không chỉ bán trà sữa, chúng tôi thêu dệt những tầng hương hoa và tạo nên những khoảnh khắc bình yên."
               </p>
               <p className="philo-p">
-                Bông Biêng ra đời từ mong muốn mang lại một làn gió mới cho văn hóa thưởng trà hiện đại của giới trẻ Việt Nam. Giữa nhịp sống hối hả của phố thị, một ly trà thơm nhẹ hương nhài hay ấm nồng hương quế hoa sẽ là chất xúc tác tuyệt vời giúp bạn tìm lại sự thư thái, tĩnh lặng trong tâm hồn.
+                GenX PKS ra đời từ mong muốn mang lại một làn gió mới cho văn hóa thưởng trà hiện đại của giới trẻ Việt Nam. Giữa nhịp sống hối hả của phố thị, một ly trà thơm nhẹ hương nhài hay ấm nồng hương quế hoa sẽ là chất xúc tác tuyệt vời giúp bạn tìm lại sự thư thái, tĩnh lặng trong tâm hồn.
               </p>
               <p className="philo-p">
-                Mỗi sản phẩm tại Bông Biêng là sự chắt lọc tinh tế từ thiên nhiên. Lá trà tươi nguyên chất từ vùng cao nguyên Bảo Lộc kết hợp cùng hoa nhài tươi, quế hoa tự nhiên tạo nên tầng hương thanh tao, hậu vị ngọt ngào lưu luyến.
+                Mỗi sản phẩm tại GenX PKS là sự chắt lọc tinh tế từ thiên nhiên. Lá trà tươi nguyên chất từ vùng cao nguyên Bảo Lộc kết hợp cùng hoa nhài tươi, quế hoa tự nhiên tạo nên tầng hương thanh tao, hậu vị ngọt ngào lưu luyến.
               </p>
             </div>
           </ScrollReveal>
@@ -83,7 +83,7 @@ export default function Story() {
                 <span className="leaf-emoji-float">🍃</span>
                 <span className="heart-emoji-float">💖</span>
                 <div className="circle-inner-brand">
-                  <span className="circle-brand-name">Bông Biêng</span>
+                  <span className="circle-brand-name">GenX PKS</span>
                   <span className="circle-brand-tag">Since 2024</span>
                 </div>
               </div>
@@ -159,11 +159,11 @@ export default function Story() {
         <div className="container feedback-box">
           <ScrollReveal animation="left">
             <div className="feedback-text-side">
-              <h2>Chuyện Riêng Cùng Bông Biêng</h2>
-              <p>Bạn có điều gì muốn nhắn nhủ đến Bông Biêng không? Một lời khen, một ý kiến đóng góp hay chỉ đơn giản là chia sẻ câu chuyện của bạn ngày hôm nay bên ly trà.</p>
+              <h2>Chuyện Riêng Cùng GenX PKS</h2>
+              <p>Bạn có điều gì muốn nhắn nhủ đến GenX PKS không? Một lời khen, một ý kiến đóng góp hay chỉ đơn giản là chia sẻ câu chuyện của bạn ngày hôm nay bên ly trà.</p>
               <p>Chúng tôi luôn ở đây để lắng nghe từng câu chuyện nhỏ nhất của khách hàng.</p>
               <div className="feedback-quote-box">
-                <p>"Trà ngon phải có bạn hiền,<br />Chuyện riêng có Bông lắng nghe."</p>
+                <p>"Trà ngon phải có bạn hiền,<br />Chuyện riêng có GenX lắng nghe."</p>
               </div>
             </div>
           </ScrollReveal>
@@ -174,7 +174,7 @@ export default function Story() {
                 <div className="form-success-state">
                   <div className="success-icon-circle">✓</div>
                   <h3>Cảm ơn bạn đã chia sẻ!</h3>
-                  <p>Bông Biêng đã nhận được lời nhắn của bạn và sẽ phản hồi sớm nhất có thể.</p>
+                  <p>GenX PKS đã nhận được lời nhắn của bạn và sẽ phản hồi sớm nhất có thể.</p>
                   <button onClick={() => setIsSubmitted(false)} className="btn btn-primary">
                     Gửi thêm lời nhắn
                   </button>

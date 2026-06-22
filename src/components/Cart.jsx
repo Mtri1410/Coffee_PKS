@@ -47,7 +47,7 @@ export default function Cart({ isOpen, onClose, cartItems, onUpdateQuantity, onR
   };
 
   const generateOrderMessage = () => {
-    let msg = `ĐƠN HÀNG MỚI - BÔNG BIÊNG\n`;
+    let msg = `ĐƠN HÀNG MỚI - GENX PKS\n`;
     msg += `---------------------\n`;
     msg += `Khách hàng: ${checkoutForm.name}\n`;
     msg += `SĐT: ${checkoutForm.phone}\n`;
@@ -186,7 +186,7 @@ export default function Cart({ isOpen, onClose, cartItems, onUpdateQuantity, onR
                 <input
                   type="text"
                   required
-                  placeholder="Số nhà, Tên đường, Quận, Hà Nội"
+                  placeholder="Số nhà, Tên đường, Quận, TP. HCM"
                   className="form-control"
                   value={checkoutForm.address}
                   onChange={(e) => setCheckoutForm({ ...checkoutForm, address: e.target.value })}
@@ -266,15 +266,15 @@ export default function Cart({ isOpen, onClose, cartItems, onUpdateQuantity, onR
                     {/* Recreating a simulated QR code using CSS art and canvas or branding logo */}
                     <div className="qr-graphics">
                       <div className="qr-squares"></div>
-                      <span className="qr-brand-label">Bông Biêng Pay</span>
+                      <span className="qr-brand-label">GenX PKS Pay</span>
                     </div>
                   </div>
                   <div className="bank-details-text">
                     <p>Ngân hàng: <strong>MB Bank (Quân Đội)</strong></p>
                     <p>Số tài khoản: <strong>0968123456</strong></p>
-                    <p>Chủ tài khoản: <strong>CONG TY CPTMDV BLACK PEARL</strong></p>
+                    <p>Chủ tài khoản: <strong>CONG TY TNHH GENX PK STORY</strong></p>
                     <p>Số tiền: <strong>{formatPrice(getSubtotal())}</strong></p>
-                    <p>Nội dung: <strong>BB {checkoutForm.phone}</strong></p>
+                    <p>Nội dung: <strong>GP {checkoutForm.phone}</strong></p>
                   </div>
                 </div>
               )}

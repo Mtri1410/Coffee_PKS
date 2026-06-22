@@ -9,7 +9,7 @@ export const categories = [
 export const productsData = [
   {
     id: 'thanh-nhai',
-    name: 'Thanh Nhài (Bông Biêng)',
+    name: 'Thanh Nhài (GenX PKS)',
     price: 55000,
     category: 'flower-tea',
     categoryName: 'Trà Sữa Hương Hoa',
@@ -17,8 +17,8 @@ export const productsData = [
     isSignature: true
   },
   {
-    id: 'bong-dao',
-    name: 'Bông Đào (Olong Đào Sữa)',
+    id: 'genx-dao',
+    name: 'GenX Đào (Olong Đào Sữa)',
     price: 59000,
     category: 'flower-tea',
     categoryName: 'Trà Sữa Hương Hoa',
@@ -36,7 +36,7 @@ export const productsData = [
   },
   {
     id: 'song-nhai',
-    name: 'Song Nhài (Bông Lai)',
+    name: 'Song Nhài (GenX Lai)',
     price: 62000,
     category: 'flower-tea',
     categoryName: 'Trà Sữa Hương Hoa',

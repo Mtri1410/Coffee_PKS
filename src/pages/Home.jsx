@@ -38,8 +38,8 @@ export default function Home({ onSelectProduct }) {
     {
       date: "15 Th06, 2026",
       category: "SỰ KIỆN",
-      title: "Bông Biêng Khai Trương Chi Nhánh Thứ 6 Tại Lê Văn Lương",
-      desc: "Chào đón thành viên mới tại Tòa 18T1 Lê Văn Lương với ưu đãi Mua 1 Tặng 1 toàn bộ menu trong tuần lễ vàng khai trương từ ngày 15/06 đến ngày 22/06/2026."
+      title: "GenX PKS Khai Trương Chi Nhánh Thứ 6 Tại Bàu Cát",
+      desc: "Chào đón thành viên mới tại 68 Bàu Cát, Tân Bình với ưu đãi Mua 1 Tặng 1 toàn bộ menu trong tuần lễ vàng khai trương từ ngày 15/06 đến ngày 22/06/2026."
     },
     {
       date: "01 Th06, 2026",
@@ -51,7 +51,7 @@ export default function Home({ onSelectProduct }) {
       date: "20 Th05, 2026",
       category: "ƯU ĐÃI THÀNH VIÊN",
       title: "Chương Trình Khách Hàng Thân Thiết - Nhận Ly Giữ Nhiệt Cao Cấp",
-      desc: "Tích điểm đổi quà độc quyền cực chất cùng Bông Biêng Zalo OA. Cơ hội nhận ngay ly giữ nhiệt sứ nhám phiên bản giới hạn cho các khách hàng VIP."
+      desc: "Tích điểm đổi quà độc quyền cực chất cùng GenX PKS Zalo OA. Cơ hội nhận ngay ly giữ nhiệt sứ nhám phiên bản giới hạn cho các khách hàng VIP."
     }
   ];
 
@@ -66,11 +66,11 @@ export default function Home({ onSelectProduct }) {
             Dệt hương thanh,<br /><span>dịu vị trà.</span>
           </h1>
           <p className="hero-subtitle animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            Nơi mỗi ly trà sữa Bông Biêng là một tác phẩm nghệ thuật, kết hợp tinh tế từ hương hoa tinh khiết Á Đông và vị sữa tươi nguyên lá thượng hạng.
+            Nơi mỗi ly trà sữa GenX PKS là một tác phẩm nghệ thuật, kết hợp tinh tế từ hương hoa tinh khiết Á Đông và vị sữa tươi nguyên lá thượng hạng.
           </p>
           <div className="hero-actions animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <Link to="/products" className="btn btn-primary">Đặt Trà Ngay</Link>
-            <Link to="/story" className="btn btn-outline text-white-btn">Chuyện Bông Biêng</Link>
+            <Link to="/story" className="btn btn-outline text-white-btn">Chuyện GenX PKS</Link>
           </div>
         </div>
       </section>
@@ -81,7 +81,7 @@ export default function Home({ onSelectProduct }) {
           <ScrollReveal animation="up">
             <div className="section-title">
               <p>Giá Trị Cốt Lõi</p>
-              <h2>Lợi Thế Từ Bông Biêng</h2>
+              <h2>Lợi Thế Từ GenX PKS</h2>
             </div>
           </ScrollReveal>
           
@@ -173,7 +173,7 @@ export default function Home({ onSelectProduct }) {
               <p className="space-pretitle">Không Gian Trải Nghiệm</p>
               <h2 className="space-title">Tìm bình yên giữa phố thị ồn ào</h2>
               <p className="space-desc">
-                Các cửa hàng Bông Biêng được thiết kế theo phong cách tối giản kiểu Á Đông hiện đại. Sự kết hợp tinh tế giữa vật liệu gỗ sồi sáng màu, mảng tường kem nhã nhặn và rất nhiều cây xanh mang lại cho bạn cảm giác nhẹ nhõm, thư thái ngay từ khi bước vào.
+                Các cửa hàng GenX PKS được thiết kế theo phong cách tối giản kiểu Á Đông hiện đại. Sự kết hợp tinh tế giữa vật liệu gỗ sồi sáng màu, mảng tường kem nhã nhặn và rất nhiều cây xanh mang lại cho bạn cảm giác nhẹ nhõm, thư thái ngay từ khi bước vào.
               </p>
               <p className="space-desc">
                 Một không gian lý tưởng để bạn học tập, làm việc hay đơn giản là ngồi thưởng thức một ly trà thơm ngát, trò chuyện cùng bạn bè thân yêu.
@@ -183,7 +183,7 @@ export default function Home({ onSelectProduct }) {
                   <MapPin size={20} color="#C29F68" />
                   <div>
                     <h4>6 Chi Nhánh</h4>
-                    <p>Tại các quận trung tâm Hà Nội</p>
+                    <p>Tại các quận trung tâm TP. Hồ Chí Minh</p>
                   </div>
                 </div>
                 <div className="space-info-box">
@@ -204,7 +204,7 @@ export default function Home({ onSelectProduct }) {
                 <div className="space-img-fallback">
                   <div className="space-fallback-graphics">
                     <span>🍃</span>
-                    <p>Không gian trà sữa Bông Biêng</p>
+                    <p>Không gian trà sữa GenX PKS</p>
                   </div>
                 </div>
               </div>
@@ -218,7 +218,7 @@ export default function Home({ onSelectProduct }) {
         <div className="container">
           <ScrollReveal animation="up">
             <div className="section-title">
-              <p>Bản Tin Bông Biêng</p>
+              <p>Bản Tin GenX PKS</p>
               <h2>Sự Kiện & Tin Tức Nổi Bật</h2>
             </div>
           </ScrollReveal>
